@@ -28,7 +28,7 @@ for rodada in range (1,totalTentativas + 1) :
     chute_str = input("Digite um número entre 1 e 100: ")
     chute = int(chute_str)
 
-    if(chute < 1 or > 100):
+    if(chute < 1 or chute > 100):
         print("Número inválido")
         continue
 
